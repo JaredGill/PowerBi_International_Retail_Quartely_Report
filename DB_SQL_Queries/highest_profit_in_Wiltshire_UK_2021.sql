@@ -6,7 +6,9 @@ WITH cte AS (SELECT  dp.sale_price,
 FROM orders o
 JOIN dim_product dp on dp.product_code = o.product_code
 JOIN dim_store ds on o.store_code = ds.store_code
-WHERE dp.cost_price IS NOT NULL AND ds.country_region LIKE 'Wiltshire')
+WHERE dp.cost_price IS NOT NULL AND ds.country_region LIKE 'Wiltshire'
+AND EXTRACT(YEAR FROM o.order_date::date) = 2021
+)
 SELECT  category,
         SUM((sale_price - cte.cost_price) * product_quantity) AS profit
 FROM cte
