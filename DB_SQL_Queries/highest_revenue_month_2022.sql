@@ -1,3 +1,5 @@
+-- Task: Which month in 2022 has had the highest revenue?
+
 SELECT 
         ROUND(SUM(o.product_quantity * dp.sale_price)::numeric, 1) AS monthly_revenue, 
         EXTRACT(MONTH FROM o.order_date::date) AS month 

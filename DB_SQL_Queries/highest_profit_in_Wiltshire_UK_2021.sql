@@ -1,3 +1,5 @@
+-- Task: Which product category generated the most profit for the "Wiltshire, UK" region in 2021?
+
 WITH cte AS (
         SELECT  
                 dp.sale_price, 

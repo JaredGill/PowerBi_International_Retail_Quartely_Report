@@ -1,3 +1,5 @@
+-- Task: Which German store type had the highest revenue for 2022?
+
 SELECT 
     ds.store_type, 
     ROUND(SUM(o.product_quantity * dp.sale_price)::numeric, 2) AS store_revenue

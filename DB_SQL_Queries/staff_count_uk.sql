@@ -1,3 +1,5 @@
+-- Task: How many staff are there in all of the UK stores?
+
 SELECT 
     sum(staff_numbers) 
 FROM 

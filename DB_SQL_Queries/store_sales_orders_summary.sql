@@ -1,3 +1,6 @@
+-- Task: Create a view where the rows are the store types and the columns are the total sales, 
+--       percentage of total sales and the count of orders
+
 
 -- Creating the view
 CREATE VIEW store_sales_orders_summary_v2 AS(
