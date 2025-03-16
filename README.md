@@ -9,7 +9,7 @@ This is a Power BI project developed for a medium-sized international retailer s
 1. [Project Overview](#project-overview)  
 2. [Report Highlights](#report-highlights)  
 3. [How to Use](#how-to-use)  
-4. [Project Structure](#file-structure)  
+4. [File Structure](#file-structure)  
 
 ---
 
