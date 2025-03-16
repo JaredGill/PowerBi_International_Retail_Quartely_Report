@@ -33,6 +33,9 @@ A medium-sized international retailer wanted to harness Power BI to consolidate 
 **Quick View**  
 To get an initial view of the Report take a look at the PowerBI_Report.pdf file which has static images of the pages!
 
+**Further Breakdown**  
+Take a read through the [Projects Wiki Page](https://github.com/JaredGill/PowerBi_International_Retail_Quartely_Report/wiki) for more information on how to use the report!
+
 ---
 
 ## Report Highlights
@@ -41,21 +44,25 @@ This Power BI report spans **4 pages** with more than **40** visualisations. All
 
 ![Image](https://github.com/user-attachments/assets/7c104568-b0ee-4aec-9b64-18081cad8845)
 
-### Executive Summary
+### Executive Summary 
 - Key financial metrics (Total Revenue, Profit, Orders)  
 - High-level KPIs (YoY Growth, Quarter-on-Quarter Change)
+> (Check out the wiki's [Executive Summary Page](https://github.com/JaredGill/PowerBi_International_Retail_Quartely_Report/wiki/Executive-Summary-Page)  for further breakdown!
 
 ### Customers Detail
 - Segmentation based on location and sales volume  
 - Drilldown capabilities to explore city-level data
+> (Check out the wiki's [Customers Detail Page](https://github.com/JaredGill/PowerBi_International_Retail_Quartely_Report/wiki/Customer-Detail-Page)  for further breakdown!
 
 ### Product Detail
 - Ranked by category, profit margin, and comparison against sales targets  
 - Interactive filters to segment by time period or store location
+> (Check out the wiki's [Product Detail Page](https://github.com/JaredGill/PowerBi_International_Retail_Quartely_Report/wiki/Product-Detail-Page)  for further breakdown!
 
 ### Stores Map 
 - Highlights geographical distribution of revenue and profit  
 - Colour-coded layers to identify high/low performing stores
+> (Check out the wiki's [Stores Map Page](https://github.com/JaredGill/PowerBi_International_Retail_Quartely_Report/wiki/Stores-Map-Page)  for further breakdown!
 
 ---
 
