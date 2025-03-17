@@ -87,6 +87,11 @@ This Power BI report spans **4 pages** with more than **40** visualisations. All
 └── README.md                       <-- Primary documentation for the project
 ```
 
+## Future Improvements
+
+Need to revise the drillthrough page to filter the stores details for the specified year, and perhaps add in a slicer to allow user to filter for different dates. 
+Should also add in DAX section to wiki for key measures.
+
 ---
 
 
