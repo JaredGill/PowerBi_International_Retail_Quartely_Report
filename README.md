@@ -1,6 +1,6 @@
 # Power BI International Quarterly Report
 
-This is a Power BI project developed for a medium-sized international retailer seeking to elevate its business intelligence capabilities. The report focuses on delivering quarterly insights and high-level dashboards for C-suite executives, including customer segmentation, product performance, and store-level analysis.
+This is a practice Power BI project developed for a "medium-sized international retailer" seeking to elevate its business intelligence capabilities. The report focuses on delivering quarterly insights and high-level dashboards for C-suite executives, including customer segmentation, product performance, and store-level analysis.
 
 ---
 
@@ -24,9 +24,11 @@ A medium-sized international retailer wanted to harness Power BI to consolidate 
 - **Geospatial Analysis** of store performance
 
 **Scope:**  
-- Loaded in tables from Azure Storage, Azure SQL Database, Local CSV & Zip folders 
+- Loaded in tables from Azure Storage, Azure SQL Database, Local CSV & Zip folders
+  > more info on Data Sources [here](https://github.com/JaredGill/PowerBi_International_Retail_Quartely_Report/wiki/Data-Sources-&-Data-Model#data-sources) 
 - Clean and transform data in Power Query  
-- Create an analytical data model using a star schema  
+- Create an analytical data model using a star schema
+  > more info on Data Model [here](https://github.com/JaredGill/PowerBi_International_Retail_Quartely_Report/wiki/Data-Sources-&-Data-Model#data-model) 
 - Develop DAX measures to enable advanced time intelligence and KPIs  
 - Design a 4-page interactive Power BI report with 40+ visualisations
 
@@ -46,22 +48,22 @@ This Power BI report spans **4 pages** with more than **40** visualisations. All
 
 ### Executive Summary 
 - Key financial metrics (Total Revenue, Profit, Orders)  
-- High-level KPIs (YoY Growth, Quarter-on-Quarter Change)
+- Filter capability by previous quarters, and various categorical options
 > (Check out the wiki's [Executive Summary Page](https://github.com/JaredGill/PowerBi_International_Retail_Quartely_Report/wiki/Executive-Summary-Page)  for further breakdown!
 
 ### Customers Detail
 - Segmentation based on location and sales volume  
-- Drilldown capabilities to explore city-level data
+- Highlights of top customers Order and Revenue details
 > (Check out the wiki's [Customers Detail Page](https://github.com/JaredGill/PowerBi_International_Retail_Quartely_Report/wiki/Customer-Detail-Page)  for further breakdown!
 
 ### Product Detail
-- Ranked by category, profit margin, and comparison against sales targets  
-- Interactive filters to segment by time period or store location
+- KPI's for quarterly orders, revenue and profit vs repesctive targets
+- Interactive filters to segment by product category or store's country location
 > (Check out the wiki's [Product Detail Page](https://github.com/JaredGill/PowerBi_International_Retail_Quartely_Report/wiki/Product-Detail-Page)  for further breakdown!
 
 ### Stores Map 
-- Highlights geographical distribution of revenue and profit  
-- Colour-coded layers to identify high/low performing stores
+- Highlights geographical distribution of profit YTD by bubble size
+- Drillthrough of selected stores to seperate page to highlight stores performance in more detail
 > (Check out the wiki's [Stores Map Page](https://github.com/JaredGill/PowerBi_International_Retail_Quartely_Report/wiki/Stores-Map-Page)  for further breakdown!
 
 ---
